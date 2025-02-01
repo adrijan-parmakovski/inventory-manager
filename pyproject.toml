@@ -1,0 +1,21 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "Flat Inventory Manager"
+version = "0.1.0"
+description = "A little inventory manager for all the items in the flat"
+authors = ["Adrijan Parmakovski <adrijan.parmakovski@gmail.com>"]
+maintainers = ["Adrijan Parmakovski <adrijan.parmakovski@gmail.com>"]
+readme = ["README.md"]
+# packages
+packages = []
+
+[tool.poetry.dependencies]
+python = "^3.11"
+# library dependencies
+requests = "^2.32.3"
+Django = "^5.1.5"
+djangorestframework = "3.15.2"
+
